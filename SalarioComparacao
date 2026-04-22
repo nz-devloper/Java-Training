@@ -1,0 +1,38 @@
+public class SalarioComparacao {
+    public static void main(String[] args) {
+
+//  &&(AND) || (OR)
+//        int idade = 29;
+//        float salario = 3500F;
+//
+//        boolean MaiorDeTrinta = idade >= 30 && salario > 4612;
+//        boolean MenorDeTrinta = idade < 30 && salario > 3381;
+//
+//        System.out.println("MaiorDeTrinta " + MaiorDeTrinta);
+//        System.out.println("MenorDeTrinta " + MenorDeTrinta);
+
+//        double ContaBanco1 = 200;
+//        double ContaBanco2 = 10000;
+//        double ValorPs = 5000;
+//        boolean Compravel = ContaBanco1 >= ValorPs || ContaBanco2 >= ValorPs;
+//        System.out.println("Valor suficiente " + Compravel);
+
+        //= += -= *= /= %=
+
+        double bonus = 1800; //1800
+        bonus += 1000; //2800
+        bonus *= 2;
+        bonus -= 600;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        int contador = 0; // contador = contador + 1
+        contador++;
+        System.out.println(contador);
+
+        int contador2 = 0;
+        System.out.println(contador2++); //vai somar após o print.
+        System.out.println(contador2);
+
+        System.out.println(++contador2); //somou antes.
