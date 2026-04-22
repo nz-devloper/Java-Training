@@ -1,0 +1,14 @@
+public class Expressoes {
+    public static void main(String[] args) {
+
+        int pao = 10;
+        int queijo = 7;
+
+        System.out.println(pao == queijo);
+        System.out.println(pao != queijo);
+        System.out.println(pao > queijo);
+        System.out.println(pao < queijo);
+        System.out.println(pao >= queijo);
+        System.out.println(pao <= queijo);
+    }
+}
