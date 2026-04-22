@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class treinandoSwitch {
+    public static void main(String[] args) {
+
+
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.println("Qual dia é hoje? (represente com numeros de 1 a 7 sendo 1(domingo)");
+        int dia = scanner.nextInt();
+
+
+
+        switch (dia){
+            case 1:
+            case 7:
+                System.out.println("FDS");
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Dia Util");
+                break;
+            default:
+                System.out.println("Opção invalida");
+
+
+        }
+
+        for (int i = 0; i < 100000 ; i++) {
+            if (i % 2 == 0){
+
+                System.out.println(i);
+
+
+        }
+        }
+
+       var valorMax = 50;
+        for (int i = 0; i < valorMax; i++) {
+            if (i > 25){
+                break;
+
+        }
+            System.out.println(i);
+        }
+    }
+}
